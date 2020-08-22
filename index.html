@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- CSS Section -->
+    <link rel="stylesheet" href="./Content/game.css">
+    <title>COMP125 - M2020 - Final Test</title>
+</head>
+<body>
+    <div id="mainContent">
+        <canvas id="canvas" width="640" height="450">    
+        </canvas> 
+        <button id="roll"  class="playSound"><img src="./Assets/images/rollButton.png" alt="roll button"></button>   
+    <audio id="click">
+        <source src="./Assets/sounds/click.mp3" type="audio/mpeg">
+    </audio>
+</div>
+    
+    <!-- JavaScript Section -->
+
+    <!-- 3rd party libraries-->
+    <script src="./node_modules/easeljs/lib/easeljs.min.js"></script>
+    <script src="./node_modules/tweenjs/lib/tweenjs.min.js"></script>
+    <script src="./node_modules/soundjs/lib/soundjs.min.js"></script>
+    <script src="./node_modules/preloadjs/lib/preloadjs.min.js"></script>
+
+    
+
+    <!-- Component Scripts -->
+    <script src="./Scripts/util/Mathf.js"></script>
+    <script src="./Scripts/util/Vector2.js"></script>
+    <script src="./Scripts/core/GameObject.js"></script>
+    <script src="./Scripts/config/game.js"></script>
+
+    <!-- Game Scripts -->
+    <script src="./Scripts/uiobjects/Label.js"></script>
+    <script src="./Scripts/uiobjects/Button.js"></script>
+
+    <script src="./Scripts/core/game.js"></script>
+
+</body>
+</html>

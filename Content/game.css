@@ -1,0 +1,50 @@
+body
+{
+    background-color: lightgray;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#canvas
+{
+    background-color: white;
+    border: 1px dotted black;
+    border-radius: 10px;
+    height: 450px;
+}
+h1,p{
+    text-align: center;
+}
+#drop{
+    margin:0;
+    font-size: 12px;
+}
+.dice-area {
+    height: 203px;
+    padding: 23px 55px 40px 55px;
+}
+#dices{
+    display: flex;
+    position: absolute;
+    top: 84px;
+}
+#dice{
+    margin-left: 12%;
+}
+#dice1,#dice2,#dice3,#dice4{
+    width: 100px;
+}
+#mainContent
+{
+    width: 640px;
+    margin: 0 auto;
+}
+#roll{
+    left: 42%;
+    position: absolute;
+    bottom: 225px;
+}
+#result {
+    top: 260px;
+    position: absolute;
+    left: 42%;
+}
